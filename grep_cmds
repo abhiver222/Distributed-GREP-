@@ -1,0 +1,30 @@
+grep Thomas machine.i.log
+grep 0.0 machine.i.log
+grep 681-[\-0-9]* machine.i.log
+grep 9$ machine.i.log
+grep @google machine.i.log
+grep ^10 machine.i.log
+grep 和 machine.i.log
+grep [^a-zA-Z]@ machine.i.log
+grep (ﾉಥ益ಥ） machine.i.log
+grep [nN][iI][tT][rR][aA][tT][eE] machine.i.log
+grep 9\{5,\} machine.i.log
+grep '[5-9]\{3\}-[0-9]\{2\}' machine.i.log
+grep 3* machine.i.log
+grep [和製漢語] machine.i.log
+grep -i OCTINOXATE machine.i.log
+grep -iw Dean machine.i.log
+grep -A 3 Philip
+grep -A 3 -i zinc machine.i.log
+grep -B 3 Philip
+grep -B 3 -i zinc machine.i.log
+grep -C 3 Philip
+grep -C 3 -i zinc machine.i.log
+grep -c -i thomas machine.i.log
+grep -v -c -i thomas machine.i.log
+grep -o -b zinc machine.i.log
+grep -n zinc machine.i.log
+grep -i p.*ne machine.i.log
+grep '".*"' machine.i.log
+grep '8\{2\}' machine.i.log
+grep [\\\.\*] machine.i.log
